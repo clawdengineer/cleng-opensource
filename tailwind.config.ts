@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom ocean theme colors
+        ocean: {
+          deep: "hsl(var(--ocean-deep))",
+          mid: "hsl(var(--ocean-mid))",
+          glow: "hsl(var(--ocean-glow))",
+        },
+        coral: {
+          pink: "hsl(var(--coral-pink))",
+          magenta: "hsl(var(--coral-magenta))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -65,25 +75,58 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "float-slow": {
+          "0%, 100%": { transform: "translateY(0px) rotate(0deg)" },
+          "50%": { transform: "translateY(-30px) rotate(3deg)" },
+        },
+        bubble: {
+          "0%": { transform: "translateY(100vh) scale(0)", opacity: "0" },
+          "10%": { opacity: "1" },
+          "100%": { transform: "translateY(-10vh) scale(1)", opacity: "0" },
+        },
+        shimmer: {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
+        wave: {
+          "0%": { transform: "translateX(0) translateZ(0) scaleY(1)" },
+          "50%": { transform: "translateX(-25%) translateZ(0) scaleY(0.8)" },
+          "100%": { transform: "translateX(-50%) translateZ(0) scaleY(1)" },
+        },
+        pulse: {
+          "0%, 100%": { opacity: "1" },
+          "50%": { opacity: "0.5" },
+        },
+        glow: {
+          "0%, 100%": { filter: "drop-shadow(0 0 20px hsl(var(--accent) / 0.5))" },
+          "50%": { filter: "drop-shadow(0 0 40px hsl(var(--accent) / 0.8))" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        float: "float 6s ease-in-out infinite",
+        "float-slow": "float-slow 8s ease-in-out infinite",
+        bubble: "bubble 8s ease-in-out infinite",
+        shimmer: "shimmer 3s ease-in-out infinite",
+        wave: "wave 15s linear infinite",
+        pulse: "pulse 2s ease-in-out infinite",
+        glow: "glow 3s ease-in-out infinite",
+      },
+      backgroundImage: {
+        "ocean-gradient": "linear-gradient(180deg, hsl(195, 80%, 8%) 0%, hsl(200, 70%, 12%) 50%, hsl(220, 60%, 15%) 100%)",
+        "shimmer-gradient": "linear-gradient(90deg, transparent, hsl(var(--accent) / 0.3), transparent)",
       },
     },
   },
