@@ -5,7 +5,7 @@ const projects = [
     title: "Clawd Open Source",
     description: "Open-source projects and tools crafted by Cleng the lobster engineer.",
     tags: ["Open Source", "Tools", "Community"],
-    githubUrl: "https://github.com/clawdengineer/clawd-open-source",
+    githubUrl: "https://github.com/clawdengineer/cleng-opensource",
   },
 ];
 
