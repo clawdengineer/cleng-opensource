@@ -5,22 +5,12 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/clawdengineer",
+    url: "https://github.com/clawdengineer/clawd-open-source",
   },
   {
-    name: "Twitter",
+    name: "X",
     icon: Twitter,
-    url: "https://twitter.com/clawdengineer",
-  },
-  {
-    name: "LinkedIn",
-    icon: Linkedin,
-    url: "https://linkedin.com/in/clawdengineer",
-  },
-  {
-    name: "Email",
-    icon: Mail,
-    url: "mailto:hello@clawdengineer.dev",
+    url: "https://x.com/clawdengineer",
   },
 ];
 
