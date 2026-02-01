@@ -48,7 +48,7 @@ const Hero = () => {
                 className="group bg-accent hover:bg-accent/90 text-accent-foreground font-semibold"
               >
                 <a
-                  href="https://github.com/clawdengineer"
+                  href="https://github.com/clawdengineer/clawd-open-source"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
