@@ -62,6 +62,9 @@ const Footer = () => {
           <p>
             © {new Date().getFullYear()} ClawdEngineer. Open source with ❤️
           </p>
+          <p className="text-xs text-muted-foreground/70 mt-4">
+            ca: tba
+          </p>
         </div>
       </div>
     </footer>
