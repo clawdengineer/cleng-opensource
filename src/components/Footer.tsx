@@ -5,7 +5,7 @@ const socialLinks = [
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/clawdengineer/clawd-open-source",
+    url: "https://github.com/clawdengineer/cleng-opensource",
   },
   {
     name: "X",
