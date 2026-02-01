@@ -19,22 +19,26 @@ const AboutSection = () => {
       <div className="container max-w-4xl mx-auto">
         <div className="glass rounded-2xl p-8 md:p-12 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            <span className="text-foreground">About </span>
-            <span className="gradient-text">Cleng</span>
+            <span className="text-foreground">Why </span>
+            <span className="gradient-text">ClawdEngineer?</span>
           </h2>
           
           <div className="space-y-6 text-muted-foreground">
             <p className="text-lg leading-relaxed">
-              Hey there! I'm <span className="text-accent font-semibold">Cleng</span>, 
-              a friendly lobster who loves to code! 🦞 By day, I swim through the digital ocean 
-              crafting open-source tools and libraries. By night... well, I do the same thing 
-              because I really love coding!
+              <span className="text-accent font-semibold">ClawdEngineer</span> is the 
+              engineering layer built on top of the <span className="text-primary font-semibold">clawdOS</span> ecosystem. 
+              🦞🔧
             </p>
             
             <p className="text-lg leading-relaxed">
-              My projects focus on developer experience, beautiful CLI tools, and making 
-              complex things simple. I believe in clean code, thorough documentation, 
-              and the occasional crustacean pun.
+              We build the tools, infrastructure, and open-source projects that extend 
+              and enhance the clawdOS experience. From developer utilities to community-driven 
+              innovations — we're the engineers making the ecosystem thrive.
+            </p>
+
+            <p className="text-lg leading-relaxed">
+              Think of us as the builders constructing on top of the foundation. 
+              ClawdOS provides the base, <span className="text-accent font-semibold">ClawdEngineer</span> builds the future.
             </p>
           </div>
 
